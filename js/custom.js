@@ -38,7 +38,7 @@ $(function () {
 
 $(function () {
     const MMS = new Swiper('.main_bridal_slide', {
-        slidesPerView: 2,
+        slidesPerView: 1,
         spaceBetween: 30,
         speed: 8000,
         loop: true,

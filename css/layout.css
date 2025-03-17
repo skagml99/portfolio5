@@ -10,10 +10,28 @@
     margin: 0 auto;
 }
 
+@media (max-width: 768px) {
+    .inner {
+        max-width: 1170px;
+        margin: 0 auto;
+
+        /* r */
+        margin: 0 16px;
+    }
+}
+
 
 .title {
     max-width: 1170px;
     margin: 0 auto;
 
     margin-bottom: 40px;
+}
+
+.section {
+    overflow: hidden;
+}
+
+.fp-watermark {
+    display: none;
 }
