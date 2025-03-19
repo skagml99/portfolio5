@@ -866,7 +866,9 @@
         min-width: 0;
     }
 
-    .main_lookbook .inner .left figure {}
+    .main_lookbook .inner .left figure {
+        height: 640px;
+    }
 
     .main_lookbook .inner .left .itm {
         overflow: hidden;
@@ -889,7 +891,7 @@
         padding: 240px 0;
 
         /* r */
-        padding: 40px 0;
+        padding: 16px 0;
     }
 
     .main_lookbook .inner .txt p {
@@ -924,7 +926,7 @@
         left: auto;
         right: 24px;
         top: auto;
-        bottom: 80px;
+        bottom: 96px;
     }
 
     .main_lookbook .arrows button {
